@@ -1,0 +1,92 @@
+@import "../../styles/variaveis";
+
+.containerGeral{
+    display: flex;
+}
+
+.containerVazio {
+    width: 32%;
+    
+}
+
+.containerVazioFinal{
+    width: 15%;
+    padding-bottom: 5em;
+}
+
+.containerSection {
+    display: flex;
+    flex-direction: column;    
+    width: 67%;
+}
+
+.card{
+    background-color: rgba(12,12,17,1);
+    border-radius: 20px;
+    height: 250px;
+    width: 255px;
+    margin-right: 3rem;
+    margin-bottom: 1.35rem;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+
+
+.lista{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+}
+
+
+.imagem{
+    height: 75%;
+    width: 100%;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.containerGeral h2 {
+    color: $roxo;
+}
+
+
+
+span {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    margin-top: 0.5rem;
+    color: $cinza-claro;
+  }
+
+.descricao {
+    margin: 0;
+    padding: 0 16px;
+    font-size: 1.25rem;
+    color: $cor-do-texto;
+    
+  }

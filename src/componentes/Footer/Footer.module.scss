@@ -1,0 +1,25 @@
+@import "../../styles/variaveis";
+
+.footer {    
+    background-color: $preto-footer ;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
+    box-sizing: border-box;
+    padding: .2em 1em;
+    box-shadow: 1px 1px 10px $preto-footer;
+    
+}
+
+.footer p {
+    color:$cor-do-texto;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+

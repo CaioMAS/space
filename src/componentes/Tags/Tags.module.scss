@@ -1,0 +1,30 @@
+@import "../../styles/variaveis";
+
+.container {
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between; 
+    padding-right: 1.5em;
+}
+
+.container p {
+    color: $cor-do-texto;
+}
+
+.lista {
+    display: flex;
+    gap: 3em;    
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    gap: 1em;    
+    text-decoration: none;
+    background-color: $tag-color;
+    align-items: center;
+    padding: .5em 1em;
+    color: $cor-do-texto;
+    border-radius: .5em;
+    cursor: pointer;
+}
